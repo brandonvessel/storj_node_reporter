@@ -212,8 +212,13 @@ def send_email():
 
 
 if __name__ == '__main__':
+    # Schedule daily email
     schedule.every().day.at(EMAIL_TIME).do(send_email)
-    send_email()
+    
+    # Send test email
+    gmail = GMail('Storj Notification <{}>'.format(EMAIL_USERNAME), password=EMAIL_PASSWORD)
+    message = Message("Daily Storj Report For Node {}".format(NODE_NICKNAME), to=EMAIL_SENDTO, text='If you are receiving this, you have configured your email correctly! :)')
+    gmail.send(message)
 
     while True:
         schedule.run_pending()
