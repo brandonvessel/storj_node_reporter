@@ -12,9 +12,11 @@ ReneSmeekes made a bash version that only prints to the console tool [here](http
 The program is a singular .py file.
 The only requirements are the correct Python version (currently only supports 2.X) and installing required packages using pip.
 
-Required packages:
-- schedule
+Required pip packages:
 - gmail
+- schedule
+
+`pip install gmail schedule`
 
 It is recommended that you use [screen](https://ss64.com/bash/screen.html) if you are running this using an SSH connection.
 
@@ -27,6 +29,8 @@ Running using Python 2 as root: `sudo python node_reporter.py`
 Running using Python 2 in a screen: `screen python node_reporter.py`
 
 Running using Python 2 in a screen as root: `screen sudo python node_reporter.py`
+
+**Python 3 is not currently supported**
 
 Running using Python 3: `python3 node_reporter.py`
 
