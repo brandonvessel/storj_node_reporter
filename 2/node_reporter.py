@@ -82,6 +82,7 @@ def generate_report():
     audit_failed_crit = run_command("{} 2>&1 | grep GET_AUDIT | grep failed | grep open -c".format(LOG)).rstrip()
     if(str(audit_success) == "0" and str(audit_failed_warn) == "0" and str(audit_failed_crit) == "0"):
         audit_success_min = "0%"
+        audit_success_max = "0%"
     else:
         audit_success_min = "{}%".format(float(audit_success) / (float(audit_failed_warn) + float(audit_success) + float(audit_failed_crit))*100.0)
         audit_success_max = "{}%".format(float(audit_success) / (float(audit_failed_crit) + float(audit_success))*100.0)
