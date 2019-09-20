@@ -76,4 +76,4 @@ Success Rate:         80.549% (79.265%)
 - [x] Python 3 support
 - [ ] Support other email services
 - [ ] Include usage statistics (bandwidth, disk usage)
-- [ ] Format information nicely (html, css, better readibality)
+- [ ] Format information nicely (html, css, better readabality)
