@@ -30,8 +30,6 @@ Running using Python 2 in a screen: `screen python node_reporter.py`
 
 Running using Python 2 in a screen as root: `screen sudo python node_reporter.py`
 
-**Python 3 is not currently supported**
-
 Running using Python 3: `python3 node_reporter.py`
 
 Running using Python 3 as root: `sudo python3 node_reporter.py`
@@ -74,7 +72,7 @@ Success Rate:         80.549% (79.265%)
 ```
 
 ### CURRENT ISSUES AND TODO
-- [ ] Update for Python 3
+- [x] Python 3 support
 - [ ] Support other email services
 - [ ] Include usage statistics (bandwidth, disk usage)
 - [ ] Format information nicely (html, css, better readibality)
