@@ -10,13 +10,14 @@ ReneSmeekes made a bash version that only prints to the console tool [here](http
 ### How to use it
 
 The program is a singular .py file.
-The only requirements are the correct Python version (currently only supports 2.X) and installing required packages using pip.
+The only requirements are the correct Python version (supports Python 2 and Python 3) and installing required packages using pip.
 
 Required pip packages:
 - gmail
 - schedule
 
-`pip install gmail schedule`
+Python 2 `pip install gmail schedule`
+Python 3 `pip3 install gmail schedule`
 
 It is recommended that you use [screen](https://ss64.com/bash/screen.html) if you are running this using an SSH connection.
 
