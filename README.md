@@ -71,9 +71,3 @@ Successful:           24366 (21346)
 Failed:               5884 (5453)
 Success Rate:         80.549% (79.265%)
 ```
-
-### CURRENT ISSUES AND TODO
-- [x] Python 3 support
-- [ ] Support other email services
-- [ ] Include usage statistics (bandwidth, disk usage)
-- [ ] Format information nicely (html, css, better readabality)
